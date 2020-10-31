@@ -65,9 +65,9 @@ body {
     color: white;
     margin-right: 10px;
     font-size: 18px;
-    font-weight: 700;
-    word-spacing: 0px;
-    letter-spacing: -0.9px;
+    font-weight: 400;
+    word-spacing: 0.3px;
+    letter-spacing: -1.2px;
   }
   .purchase {
     background-color: #1abc9c;
@@ -77,9 +77,9 @@ body {
     color: white;
     margin-left: 8px;
     font-size: 18px;
-    font-weight: 700;
-    word-spacing: 0.3px;
-    letter-spacing: -0.2px;
+    font-weight: 400;
+    word-spacing: 0.4px;
+    letter-spacing: -0.5px;
     
   }
   .slider{
