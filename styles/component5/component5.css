@@ -1,0 +1,114 @@
+.component5{
+    width: 100%;
+    height: 700px;
+    background-color: #222533;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+ .textarea{
+   text-align: center;
+   margin: 0 auto;
+ }
+ .textarea > P:nth-child(1) {
+   margin-top: 0cm;
+   font-size: 36px;
+   font-weight: 200;
+   color: #FFFFFF;
+   margin-top: 90px;
+   margin-bottom: 0px;
+ }
+ .textarea > P:nth-child(2) {
+   font-size: 14px;
+   max-width: 630.7px;
+   color: #FFFFFF;
+   line-height: 24px ;
+   margin-top: 13px;
+ }
+ .cont {
+   display: flex;
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ .data {
+   margin-top: 10px;
+   width: 260px;
+   height: 350px;
+   margin-right: 28px;
+   position: relative;
+ }
+ .diagram{
+   width: 200px;
+   height: 200px;
+   border-radius: 200px;
+   background-color: #1ABC9C;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%,0);
+
+ }
+ .normalcircle{
+   width: 188px;
+   height: 188px;
+   border-radius: 188px;
+   margin-top: 6px;
+   background-color: white;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%,0);
+ }
+ .smallestone {
+  width: 104.5px;
+   height: 104.5px;
+   border-radius: 104.5px;
+   margin-top: 43px;
+   background-color: #ECF0F1;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%,0);
+   color: #4E4E4E;
+   font-size: 18px;
+ }
+   
+ .perssentage{
+   left: 50%;
+   transform: translate(-50%,0);
+   color: #4E4E4E;
+   font-size: 18px;
+   position: absolute;
+   margin-top: 40px;
+
+ }
+ .content {
+   text-align: center;
+   margin-top: 225px;
+ }
+  .content > p:nth-child(1){
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+  }
+  .content > p:nth-child(2){
+    color: white;
+    font-size: 14px;
+    line-height: 24px;}
+    .data1{
+      margin-left: 35px;
+    }
+  .data2 {
+    margin-left: 12px;
+     }
+    .data3 {
+       margin-left: 10px;
+     }
+     .data4 {
+       margin-left: 15px;
+     }
+     .green:hover {
+       background-color: #21C2F8;
+     }
+     .blue:hover {
+       background-color: #2C3E50;
+     }
