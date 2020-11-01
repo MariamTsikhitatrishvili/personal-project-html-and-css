@@ -4,13 +4,14 @@
   height: 90px;
   position: relative;
   box-shadow: 0 0.5px 5px lightgray;
+  min-width: 1300px;
 }
 .logo1 {
   float: left;
    /* position: absolute; */
    /* margin-left: 85px; */
    margin-top: 22px;
-   margin-left: 6.5%;
+   margin-left: 19.25%;
 }
 .logotext{
   float: left;
@@ -23,6 +24,7 @@
   /* position: absolute; */
   float: right;
   margin-top: 33px ;
+  margin-right: 50%;
 }
 .topnav a {
   font-size: 15px;
@@ -32,5 +34,5 @@
   color: #A1B1BC;
 }
 .topnav:last-child {
-  margin-right: 9%;
+  margin-right: 21.25%;
 }
