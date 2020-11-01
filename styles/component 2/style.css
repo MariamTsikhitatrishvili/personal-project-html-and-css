@@ -11,7 +11,7 @@
    /* position: absolute; */
    /* margin-left: 85px; */
    margin-top: 22px;
-   margin-left: 19.25%;
+   margin-left: 20.1%;
 }
 .logotext{
   float: left;
@@ -34,5 +34,5 @@
   color: #A1B1BC;
 }
 .topnav:last-child {
-  margin-right: 21.25%;
+  margin-right: 22%;
 }
