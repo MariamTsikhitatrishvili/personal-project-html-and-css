@@ -16,108 +16,87 @@
      <link rel="stylesheet" href="styles/component6/component6.css">
      <link rel="stylesheet" href="styles/component8/component8.css">
      <link rel="stylesheet" href="styles/component14/component14.css">
+     <link rel="stylesheet" href="styles/component7/component7.css">
+     <link rel="stylesheet" href="styles/component16/component16.css">
     <style>
-    .component7 {
-    width: 100%;
-    height: 845px;
-    background-color: white;
-   } 
-   .RecemntWorks > div:nth-child(1){
-     text-align: center;
-     color: #040405;
-     font-weight: 300;
-     font-size: 36px;
-     margin-top: 83px;
-   }
-   .RecemntWorks > div:nth-child(2){
-     text-align: center;
-     color: #A1B1BC;
-     font-size: 14px;
-     width: 630px;
-     height: 80px;
-     margin: 15px auto;
-     line-height: 24px;
-     margin-top: 10px;
-   }
-   .navigation {
-     width: 1170.25px;
-     height: 55px;
-     border-top: 1px solid #ECF0F1;
-     border-bottom: 1px solid #ECF0F1;
-     margin: 0 auto;
-     display: flex;
-     flex-direction: row;
-     position: relative;
-     align-items: center;
-   } 
-   .navitems {
-     font-size: 14px;
-     color: #A1B1BC;
-     padding-right: 32px;
-   }
-   .navitems:hover {
-     color: #1ABC9C;
-   }
-   .sortdate {
-     color: #2C3E50;
-     font-size: 14px;
-     border-radius: 1px;
-     border: 1px solid #ECF0F1;
-     background-color: #ECF0F1;
-     width: 122px;
-     height: 36px;
-     position: absolute;
-     right: 0;
-   }
-   .grid {
-     height: 400px;
-     width: 59.70%;
-     margin: 47px auto;
-     display: grid;
-     grid-template-columns: repeat(4, 1fr);
-     grid-template-rows: repeat(2, 1fr);
-   }
-   .grid div{
-     border: 1px solid black;
-     grid-row: span 1;
-     grid-column: span 1;
-     position: relative;
-   }
-   .plus {
-     font-size: 48px;
-     font-weight: 300;
-     color: black;
-     position: absolute;
-     left: 50%;
-     top: -5.5%;
-     transform: translate(-50% , 0);
-    
-   }
-   .hide {
-     height: 200px;
-     background-color: #2C3E50;
-     display: none;
-   }
-   .gridelement:hover + .hide {
-    display: block;
-}
-   .hideelement {
-     height: 70px;
-     background-color: white;
-     margin-top : 130px;
-   }
-   .hideelement > p:nth-child(1){
-     text-align: center;
-     color: #2C3E50;
-     font-size: 15px;
-     letter-spacing: 2px;
-   }
-   .hideelement > p:nth-child(2){
-     text-align: center;
-     color: #A1B1BC;
-     font-size: 12px;
-     letter-spacing: 2px;
-   }
+      .component9{
+        width: 100%;
+        height: 882px;
+        background-color: #666666;
+        margin-top: -15px;
+        position: relative;
+      }
+      .title {
+        width: 35%;
+        height: 150px;
+        margin: auto; 
+        text-align: center;
+      }
+      .title > p:nth-child(1){
+          font-weight: 300;
+          font-size: 36px;
+          color: white;
+          margin-top: 0;
+          padding-top: 91px;
+      }
+      .title > p:nth-child(2){
+          font-size: 15px;
+          color: #E8E8E8;
+          margin-top: -30px;
+          line-height: 24px;
+          white-space: pre;
+      }
+      .mobile {
+      /* padding-top: 80px; */
+       position: absolute;
+       left: 50%;
+       transform: translate(-50% ,0) ;
+      }
+      .design{
+        width: 15%;
+        height: 82px;
+        text-align: right;
+        display: inline-block;
+        margin-top: 100px;
+      }
+
+      .designchild div:nth-child(1) {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color:#1FDAB5 ;
+        position: relative;
+      }
+      .designchild div:nth-child(2) {
+       align-self: center;
+       color: #FFFFFF;
+       
+       font-size: 18px;
+       margin-right: 5px;
+      }
+      .designbox{
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        
+      }
+      .designchild {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .design p {
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+      }
+      .check {
+        position: absolute;
+        top: 50%;
+        right: 25%;
+        transform: translate(-50%, -50%);
+      }
+
     </style>
   </head>
   <body>
@@ -372,8 +351,10 @@
           <button class="sortdate">Sort by Date</button>
         </div>
         <div class="grid">
-             <div class="gridelement">
+             <div class="gridelement lightgray">
+               
                <div class="hide">
+                <img src="images/component7/Shape 14.png" class="arrow1">
                <p class="plus">+</p>
                <div class="hideelement"> 
                  <p>SIMPLE HOVER STYLE</p>
@@ -381,13 +362,76 @@
                </div>
               </div>
              </div>
-             <div class="gridelement"></div>
-             <div class="gridelement"></div>
-             <div class="gridelement"></div>
-             <div class="gridelement"></div>
-             <div class="gridelement"></div>
-             <div class="gridelement"></div>
-             <div class="gridelement"></div>
+             <div class="gridelement grey">
+              <div class="hide">
+                <img src="images/component7/Shape 14.png" class="arrow1">
+               <p class="plus">+</p>
+               <div class="hideelement"> 
+                 <p>SIMPLE HOVER STYLE</p>
+                 <p>PHOTOGRAPHY</p>
+               </div>
+              </div>
+             </div>
+             <div class="gridelement lightgray">
+              <div class="hide">
+                <img src="images/component7/Shape 14.png" class="arrow1">
+               <p class="plus">+</p>
+               <div class="hideelement"> 
+                 <p>SIMPLE HOVER STYLE</p>
+                 <p>PHOTOGRAPHY</p>
+               </div>
+              </div>
+             </div>
+             <div class="gridelement grey">
+              <div class="hide">
+                <img src="images/component7/Shape 14.png" class="arrow1">
+               <p class="plus">+</p>
+               <div class="hideelement"> 
+                 <p>SIMPLE HOVER STYLE</p>
+                 <p>PHOTOGRAPHY</p>
+               </div>
+              </div>
+             </div>
+             <div class="gridelement grey">
+              <div class="hide">
+                <img src="images/component7/Shape 14.png" class="arrow1">
+               <p class="plus">+</p>
+               <div class="hideelement"> 
+                 <p>SIMPLE HOVER STYLE</p>
+                 <p>PHOTOGRAPHY</p>
+               </div>
+              </div>
+             </div>
+             <div class="gridelement lightgray">
+              <div class="hide">
+                <img src="images/component7/Shape 14.png" class="arrow1">
+               <p class="plus">+</p>
+               <div class="hideelement"> 
+                 <p>SIMPLE HOVER STYLE</p>
+                 <p>PHOTOGRAPHY</p>
+               </div>
+              </div>
+             </div>
+             <div class="gridelement grey">
+              <div class="hide">
+                <img src="images/component7/Shape 14.png" class="arrow1">
+               <p class="plus">+</p>
+               <div class="hideelement"> 
+                 <p>SIMPLE HOVER STYLE</p>
+                 <p>PHOTOGRAPHY</p>
+               </div>
+              </div>
+             </div>
+             <div class="gridelement lightgray">
+              <div class="hide">
+                <img src="images/component7/Shape 14.png" class="arrow1">
+               <p class="plus">+</p>
+               <div class="hideelement"> 
+                 <p>SIMPLE HOVER STYLE</p>
+                 <p>PHOTOGRAPHY</p>
+               </div>
+              </div>
+             </div>
         </div>
     </div>
     <div class="component8">
@@ -415,6 +459,44 @@
     </div>
   </div>
     </div>
+    <!-- <div class="component9">
+         <div class="title">
+           <p> New Features Of <span style="color:#26E2BD; weight: 400;">The Fox</span> 2017</p>
+           <p> Proin faucibus malesuada dui, ut porta arcu pretium consequat. 
+  Ut iaculis dui at gravida vehicula. Donec malesuada suscipit sem sit amet pulvinar. </p>
+         </div>
+         <div class="designbox"> 
+         <div class="design">
+           <div class="designchild">
+            <div class="greencarc"> <img src="images/component9/.png" class="check"></div>
+           <div> Modern Design Trends</div>
+
+          </div>
+           <p>Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
+         </div>
+         <div class="design">
+          <div class="designchild">
+           <div class="greencarc"> <img src="images/component9/.png" class="check"></div>
+          <div> Modern Design Trends</div>
+
+         </div>
+          <p>Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
+        </div>
+        <div class="design">
+          <div class="designchild">
+           <div class="greencarc"> <img src="images/component9/.png" class="check"></div>
+          <div> Modern Design Trends</div>
+
+         </div>
+          <p>Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
+        </div>
+        </div>
+         
+          <div class="mobile">
+            <img src="images/component9/Nexus7.png" alt="mobile">
+          </div>
+
+    </div> -->
   <div class="compponent14">
     <div class="foricon">
       <div><img src="images/component14/facebook.png" alt="facebook"> </div>
@@ -431,6 +513,24 @@
       <div><img src="images/component14/wondows.png" alt="windows"> </div>
     </div>
  </div>
- 
+      <div class="component15">
+          <div class="flexitems">
+            <div class="flexitem1">
+              <div></div>
+            </div>
+          </div>
+      </div>
+      <div class="component16">
+         <div class="footer">
+           <img src="images/component16/Vector Smart Object copy.png" alt="footerlogo">
+           <p>© Copyright 2014 - <span class="lastspan">TheFox Theme Demo</span> - Thefox Design by <span class="lastspan">Tran Mau Tri Tam.</span></p>
+           <div class="classfoter">Help Center</div>
+           <div class="classfoter">Online Support</div>
+           <div class="classfoter">Forum</div>
+           <div class="classfoter">Articles</div>
+           <div class="classfoter">About Us</div>
+          </div>
+
+      </div>
   </body>
 </html>
