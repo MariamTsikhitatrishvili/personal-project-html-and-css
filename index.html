@@ -18,85 +18,94 @@
      <link rel="stylesheet" href="styles/component14/component14.css">
      <link rel="stylesheet" href="styles/component7/component7.css">
      <link rel="stylesheet" href="styles/component16/component16.css">
+     <link rel="stylesheet" href="styles/component12/component12.css">
+     <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="styles/component11/component11.css">
+     <link rel="stylesheet" href="styles/component9/component9.css">
     <style>
-      .component9{
+      .component10{
         width: 100%;
-        height: 882px;
-        background-color: #666666;
-        margin-top: -15px;
-        position: relative;
+        height: 1010px;
       }
-      .title {
-        width: 35%;
-        height: 150px;
-        margin: auto; 
+      .section1{
+        width: 33%;
         text-align: center;
+        margin: auto;
+        padding-top: 90px;
       }
-      .title > p:nth-child(1){
-          font-weight: 300;
-          font-size: 36px;
-          color: white;
-          margin-top: 0;
-          padding-top: 91px;
+      .section1 > p:nth-child(1){
+        font-weight: 300;
+        font-size: 36px;
+        color: #2C3E50;
+        margin: 0;
       }
-      .title > p:nth-child(2){
-          font-size: 15px;
-          color: #E8E8E8;
-          margin-top: -30px;
-          line-height: 24px;
-          white-space: pre;
-      }
-      .mobile {
-      /* padding-top: 80px; */
-       position: absolute;
-       left: 50%;
-       transform: translate(-50% ,0) ;
-      }
-      .design{
-        width: 15%;
-        height: 82px;
-        text-align: right;
-        display: inline-block;
-        margin-top: 100px;
-      }
-
-      .designchild div:nth-child(1) {
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-        background-color:#1FDAB5 ;
-        position: relative;
-      }
-      .designchild div:nth-child(2) {
-       align-self: center;
-       color: #FFFFFF;
-       
-       font-size: 18px;
-       margin-right: 5px;
-      }
-      .designbox{
-        display: inline-block;
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
-        
-      }
-      .designchild {
-        display: flex;
-        flex-direction: row-reverse;
-      }
-      .design p {
-        color: white;
+      .section1 > p:nth-child(2){
         font-size: 14px;
-        font-weight: normal;
+        color: #A1B1BC;
+        margin-top: 0;
+        padding-top: 10px;
+        padding-bottom: 70px;
       }
-      .check {
-        position: absolute;
-        top: 50%;
-        right: 25%;
-        transform: translate(-50%, -50%);
+      .gridfor10{
+        width: 61%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) ;
+        grid-template-rows:  repeat(11, 1fr) ;
+        height: 460px;
+        margin: auto;
       }
-
+      .gridfor10 div{
+        border: 1px solid black;
+      }
+      .col3 {
+        grid-row: span 3;
+        grid-column: span 1;
+      }
+      .colwhite{
+        grid-row: span 1;
+        grid-column: span 1;
+      }
+      .collightgray {
+        grid-row: span 1;
+        grid-column: span 1;
+      }
+      .coldarkgray{
+        grid-row: span 1;
+        grid-column: span 1;
+      }
+      .lastrow{
+        grid-row: span 2;
+        grid-column: span 1;
+      }
+      .section3{
+        width: 61%;
+        height: 150px;
+        border: 1px solid #EAEBEC;
+        margin: auto;
+        margin-top: 100px;
+      }
+      .stick {
+        height: 150px;
+        width: 10px;
+        background-color: #1ABC9C;
+        float: left;
+      }
+      .section3 > p:nth-child(2){
+        float: left;
+        font-size: 24px;
+        font-weight: 300;
+        color: #2C3E50;
+      }
+      .purchase {
+        float: right;
+      }
+      .section3 > p:nth-child(3){
+        clear: left;
+        float: left;
+        font-size: 14px;
+        font-weight: 300;
+        color: #2C3E50;
+      }
     </style>
   </head>
   <body>
@@ -459,44 +468,289 @@
     </div>
   </div>
     </div>
-    <!-- <div class="component9">
-         <div class="title">
-           <p> New Features Of <span style="color:#26E2BD; weight: 400;">The Fox</span> 2017</p>
-           <p> Proin faucibus malesuada dui, ut porta arcu pretium consequat. 
-  Ut iaculis dui at gravida vehicula. Donec malesuada suscipit sem sit amet pulvinar. </p>
+    <div class="component9">
+      <div class="new-feature">
+         <p>New Features Of <span style="color: #26E2BD; font-size: 36px;">The Fox </span>2017</p>
+         <p>Proin faucibus malesuada dui, ut porta arcu pretium consequat. 
+Ut iaculis dui at gravida vehicula. Donec malesuada suscipit sem sit amet pulvinar. </p>
+      </div>
+      <div class="fullpage">
+      <div class="flexcomponent9 right"> 
+           <div>
+              <div class="modern-design">
+                <div class="fa-flex">
+               
+                 <div class="fa-text">Modern Design Trends </div>  
+                 <div class="check-box"><i class="fa fa-check"></i> </div>
+                 </div> 
+                 <p>Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
+              </div>
+           </div>
+           <div>
+            <div class="modern-design">
+              <div class="fa-flex">
+             
+               <div class="fa-text">24/7 Online Suport</div>  
+               <div class="check-box"><i class="fa fa-check"></i> </div>
+               </div> 
+               <p>Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
+            </div>
          </div>
-         <div class="designbox"> 
-         <div class="design">
-           <div class="designchild">
-            <div class="greencarc"> <img src="images/component9/.png" class="check"></div>
-           <div> Modern Design Trends</div>
-
+         <div>
+          <div class="modern-design">
+            <div class="fa-flex">
+           
+             <div class="fa-text">Easy To Customize</div>  
+             <div class="check-box"><i class="fa fa-check"></i> </div>
+             </div> 
+             <p>Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
           </div>
-           <p>Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
-         </div>
-         <div class="design">
-          <div class="designchild">
-           <div class="greencarc"> <img src="images/component9/.png" class="check"></div>
-          <div> Modern Design Trends</div>
+       </div>
+       
+ </div>
+<div class="iphone"></div>
+<div class="flexcomponent9 left"> 
+  <div >
+     <div class="modern-design">
+       <div id="check1" class="check-box"><i class="fa fa-check"></i> </div>
+        <p class="trend" id="trend3">Responsive Design</p>    
+        <p class="check2text">Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
+     </div>
+  </div>
+  <div>
+   <div class="modern-design">
+     <div id="check2" class="check-box"><i class="fa fa-check" ></i> </div>
+      <p class="trend" id="trend1">Save Money</p>    
+      <p class="check2text">Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
+   </div>
+</div>
+<div>
+ <div class="modern-design">
+   <div id="check3" class="check-box" ><i class="fa fa-check" ></i> </div>
+    <p class="trend" id="trend2">The Best PSD Author</p>    
+    <p class="check2text">Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
+ </div>
+</div>
 
-         </div>
-          <p>Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
-        </div>
-        <div class="design">
-          <div class="designchild">
-           <div class="greencarc"> <img src="images/component9/.png" class="check"></div>
-          <div> Modern Design Trends</div>
+</div>
 
-         </div>
-          <p>Maecenas non ligula ut lorem eleifend adipiscing id sed purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices </p>
-        </div>
-        </div>
-         
-          <div class="mobile">
-            <img src="images/component9/Nexus7.png" alt="mobile">
+</div>
+</div>
+<!-- <div class="component10">
+  <div class="section1">
+      <p>Pricing Tables</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a aliquet orci. Ut interdum mauris sem, non aliquet felis interdum sit amet.</p>
+  </div>
+  <div class="gridfor10">
+     <div class="col3"></div>
+     <div class="col3"></div>
+     <div class="col3"></div>
+     <div class="col3"></div>
+     <div class="colwhite"></div>
+     <div class="collightgray"></div>
+     <div class="collightgray"></div>
+     <div class="collightgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="colwhite"></div>
+     <div class="collightgray"></div>
+     <div class="collightgray"></div>
+     <div class="collightgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="colwhite"></div>
+     <div class="collightgray"></div>
+     <div class="collightgray"></div>
+     <div class="collightgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="coldarkgray"></div>
+     <div class="lastrow"></div>
+     <div class="lastrow"></div>
+     <div class="lastrow"></div>
+     <div class="lastrow"></div>
+  </div>
+  <div class="section3">
+      <div class="stick"></div>
+      <p>TheFox is Clean and Unique PSD Template</p>
+      
+      <p>Quisque lacinia tortor in mauris egestas, nec adipiscing nisl auctor. Suspendisse potenti. Nam in consequat turpis. Pellentesque volutpat diam nulla, eu gravida massa volutpat in. </p>
+      <button class="purchase">Purchase Now</button>
+  </div>
+</div> -->
+    <div class="container11">
+      <div class="first-row">
+      <div class="flex-component1">
+        <div > <img src="images/component11/keyboard & mouse 3.png" alt="computer"></div>
+        <div class="maintitle">
+          <p>Clear and Clean Layouts</p>
+          <div class="grid-layout">
+          <div class="main-cont">
+          <div class="iconrow"> <img src="images/component11/Icon.png" alt="hexagon"> <p>Creative Ideas</p> </div>
+            <div>Praesent turpis mauris, aliquet id dolor
+              Gravida adipiscing lectus ut rutrum 
+              Aenean at posuere risus.</div>
+              <div>View detail</div>
           </div>
-
-    </div> -->
+          <div class="main-cont">
+            <div class="iconrow"> <img src="images/component11/Icon.png" alt="hexagon"> <p>Professional Portfolio</p> </div>
+              <div>Praesent turpis mauris, aliquet id dolor
+                Gravida adipiscing lectus ut rutrum 
+                Aenean at posuere risus.</div>
+                <div>View detail</div>
+            </div>
+            <div class="main-cont">
+              <div class="iconrow"> <img src="images/component11/Icon.png" alt="hexagon"> <p>Beautiful Blog</p> </div>
+                <div>Praesent turpis mauris, aliquet id dolor
+                  Gravida adipiscing lectus ut rutrum 
+                  Aenean at posuere risus.</div>
+                  <div>View detail</div>
+              </div>
+              <div class="main-cont">
+                <div class="iconrow"> <img src="images/component11/Icon.png" alt="hexagon"> <p>Mega PSD Pack</p> </div>
+                  <div>Praesent turpis mauris, aliquet id dolor
+                    Gravida adipiscing lectus ut rutrum 
+                    Aenean at posuere risus.</div>
+                    <div>View detail</div>
+                </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="first-row second-row">
+    <div class="flex-component1">
+ 
+      <div class="maintitle maintitle2" >
+        <p id="clear-text">Amazing Theme Options</p>
+        <div class="grid-layout">
+        <div class="main-cont main-cont2 ">
+        <div class="iconrow"> <img src="images/component11/Icon.png" alt="hexagon"> <p>Super Security</p> </div>
+          <div>Praesent turpis mauris, aliquet id dolor
+            Gravida adipiscing lectus ut rutrum 
+            Aenean at posuere risus.</div>
+            <div>View detail</div>
+        </div>
+        <div class="main-cont main-cont2 gridbox">
+          <div class="iconrow"> <img src="images/component11/Icon.png" alt="hexagon"> <p>Easy To Changes Setting</p> </div>
+            <div>Praesent turpis mauris, aliquet id dolor
+              Gravida adipiscing lectus ut rutrum 
+              Aenean at posuere risus.</div>
+              <div>View detail</div>
+          </div>
+          <div class="main-cont main-cont2">
+            <div class="iconrow"> <img src="images/component11/Icon.png" alt="hexagon"> <p>Full Shortcodes</p> </div>
+              <div>Praesent turpis mauris, aliquet id dolor
+                Gravida adipiscing lectus ut rutrum 
+                Aenean at posuere risus.</div>
+                <div>View detail</div>
+            </div>
+            <div class="main-cont main-cont2 gridbox">
+              <div class="iconrow"> <img src="images/component11/Icon.png" alt="hexagon"> <p>Friendly Documentation</p> </div>
+                <div>Praesent turpis mauris, aliquet id dolor
+                  Gravida adipiscing lectus ut rutrum 
+                  Aenean at posuere risus.</div>
+                  <div>View detail</div>
+              </div>
+      </div>
+    </div>
+    <div > <img src="images/component11/Mockup.png" alt="Mockup" class="mockup"></div>
+  </div>
+</div>
+  </div>
+    <div class="component12"> 
+         <div class="breaking-news">
+           <div class="breaking-text">
+             <p>Breaking News</p>
+             <p>TheFox - a versatile theme that can do everything from blog to corporate portal.
+With power to customize every aspect of designand layout without writing a single line of code.</p>
+           </div>
+           <div>
+                <div class="grid1">
+                     <div class="grid-box">
+                            <div></div>
+                            <div class="grid-element">
+                            <div class="grid-text"> <p>Design Principles: 
+Space And The 
+Figure-Ground 
+Relationship</p>
+                              <p><i class="fa fa-calendar grid-icons"></i>  May 16th, 2018</p>
+                              <p><i class="fa fa-comment-o grid-icons"></i>  9 Comments</p>
+                              <p><i class="fa fa-bookmark-o grid-icons"></i>  Web Design</p>
+                            </div>
+                    </div>
+                  </div>
+                    <div class="grid-box">
+                      <div></div>
+                            <div class="grid-element">
+                            <div class="grid-text"> <p>Team Collaboration
+And Closing Efficiency 
+Gaps In Responsive 
+Design</p>
+                              <p><i class="fa fa-calendar grid-icons"></i>  May 16th, 2018</p>
+                              <p><i class="fa fa-comment-o grid-icons"></i>  9 Comments</p>
+                              <p><i class="fa fa-bookmark-o grid-icons"></i>  Web Design</p>
+                            </div>
+                    </div>
+                    </div>
+                     <div class="grid-box">
+                      <div></div>
+                      <div class="grid-element">
+                      <div class="grid-text"> <p>Responsive Images
+Done Right: A Guide 
+To picture And 
+srcset</p>
+                        <p><i class="fa fa-calendar grid-icons"></i>  May 16th, 2018</p>
+                        <p><i class="fa fa-comment-o grid-icons"></i>  9 Comments</p>
+                        <p><i class="fa fa-bookmark-o grid-icons"></i>  Web Design</p>
+                      </div>
+              </div>
+                   </div>
+                   <div class="grid-box">
+                    <div></div>
+                    <div class="grid-element">
+                    <div class="grid-text"> <p>Boardroom Comics: A
+Business-Scenario 
+Visualization Tool For 
+Executives</p>
+                      <p><i class="fa fa-calendar grid-icons"></i>  May 16th, 2018</p>
+                      <p><i class="fa fa-comment-o grid-icons"></i>  9 Comments</p>
+                      <p><i class="fa fa-bookmark-o grid-icons"></i>  Web Design</p>
+                    </div>
+            </div>
+                   </div>
+                   <div class="grid-box">
+                    <div></div>
+                    <div class="grid-element">
+                    <div class="grid-text"> <p>Picturefill 2.0: 
+Responsive Images 
+And The Perfect </p>
+                      <p><i class="fa fa-calendar grid-icons"></i>  May 16th, 2018</p>
+                      <p><i class="fa fa-comment-o grid-icons"></i>  9 Comments</p>
+                      <p><i class="fa fa-bookmark-o grid-icons"></i>  Web Design</p>
+                    </div>
+            </div>
+                   </div>
+                   <div class="grid-box">
+                    <div></div>
+                    <div class="grid-element">
+                    <div class="grid-text"> <p>Efficiently Simplifying 
+Navigation, Part 2: 
+Navigation Systems</p>
+                      <p><i class="fa fa-calendar grid-icons"></i>  May 16th, 2018</p>
+                      <p><i class="fa fa-comment-o grid-icons"></i>  9 Comments</p>
+                      <p><i class="fa fa-bookmark-o grid-icons"></i>  Web Design</p>
+                    </div>
+            </div>
+                  </div>
+                </div>
+            </div>
+         </div>
+    </div>
   <div class="compponent14">
     <div class="foricon">
       <div><img src="images/component14/facebook.png" alt="facebook"> </div>
@@ -524,13 +778,19 @@
          <div class="footer">
            <img src="images/component16/Vector Smart Object copy.png" alt="footerlogo">
            <p>© Copyright 2014 - <span class="lastspan">TheFox Theme Demo</span> - Thefox Design by <span class="lastspan">Tran Mau Tri Tam.</span></p>
-           <div class="classfoter">Help Center</div>
-           <div class="classfoter">Online Support</div>
-           <div class="classfoter">Forum</div>
-           <div class="classfoter">Articles</div>
-           <div class="classfoter">About Us</div>
+           <div class="classfoter green1">Help Center</div>
+           <div class="classfoter green2">Online Support</div>
+           <div class="classfoter green3">Forum</div>
+           <div class="classfoter green4">Articles</div>
+           <div class="classfoter green5">About Us</div>
+           <div class="green-line">
+             <div class="line1"></div>
+             <div id="line2"></div>
+             <div class="line3"></div>
+             <div class="line4"></div>
+             <div class="line5"></div>
+           </div>
           </div>
-
       </div>
   </body>
 </html>
