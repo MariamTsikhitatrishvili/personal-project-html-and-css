@@ -29,34 +29,79 @@
     font-size: 14px;
   }
   
-  .green-line{
+  /* .green-line{
   display: flex;
   position: absolute;
   top: 0%;
   right: 5%;
+} */
+.green1 {
+  position: relative;
 }
-.green-line div{
-  background-color: #1ABC9C;
-  width: 70px;
-  height: 7px;
-  margin-right: 20px;
+.line1 {
+  position: absolute;
+  height: 6px;
+  width: 40px;
+  background-color:#1ABC9C;
+  top: -20px;
   display: none;
 }
-.classfoter:hover {
-  color: #1ABC9C;
-}
-.green1:hover~.green-line > .line1 {
+.green1:hover > .line1{
   display: block;
 }
-.green2:hover~ #line2 {
+.green2{
+  position: relative;
+}
+.line2 {
+  position: absolute;
+  height: 6px;
+  width: 40px;
+  background-color:#1ABC9C;
+  top: -20px;
+  display: none;
+}
+.green2:hover > .line2{
   display: block;
 }
-.green3:hover ~ .green-line > .line3 {
+.green3{
+  position: relative;
+}
+.line3 {
+  position: absolute;
+  height: 6px;
+  width: 40px;
+  background-color:#1ABC9C;
+  top: -20px;
+  display: none;
+}
+.green3:hover > .line3{
   display: block;
 }
-.green4:hover ~ .green-line > .line4 {
+.green4{
+  position: relative;
+}
+.line4 {
+  position: absolute;
+  height: 6px;
+  width: 40px;
+  background-color:#1ABC9C;
+  top: -20px;
+  display: none;
+}
+.green4:hover > .line4{
   display: block;
 }
-.green5:hover ~ .green-line > .line5 {
+.green5{
+  position: relative;
+}
+.line5 {
+  position: absolute;
+  height: 6px;
+  width: 40px;
+  background-color:#1ABC9C;
+  top: -20px;
+  display: none;
+}
+.green5:hover > .line5{
   display: block;
 }
